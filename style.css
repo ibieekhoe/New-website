@@ -1,0 +1,79 @@
+/* skills section */
+.skills .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills .boxes .box {
+  margin: 50px 0;
+  width: calc(100% / 3 -20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 20px 10px;
+  cursor: default;
+  color: black;
+  transition: all 0.4s ease;
+}
+.skills .boxes .box:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.skills .boxes .box .icon {
+  height: 50px;
+  width: 50px;
+  background: black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+
+i {
+  color: white;
+}
+.boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes .box:hover .icon {
+  background-color: black;
+  color: #fff;
+}
+
+.skills .boxes .box:hover .topic,
+.tere .boxe .boxr:hover p {
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.skills .boxes .box:hover .topic,
+.skills .boxes .box:hover p {
+  color: #fff;
+}
+.topic{
+    gap: 0%;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.skills-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
