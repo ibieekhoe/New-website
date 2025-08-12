@@ -69,6 +69,7 @@ p{
     font-style: italic;
     font-size: 15px;
     display: inline-block;
+    font-size: 20px;
 }
 
 .skills-details{
@@ -77,3 +78,44 @@ p{
     align-items: center;
     flex-direction: column;
 }
+.text{
+  display: flex;
+  flex-direction: column;
+}
+.typing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 0px;
+
+}
+.typing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+h3{
+  font-size: 15px;
+  margin-bottom: 0;
+  position: relative;
+  top: 35px;
+  
+}
+
+@media(max-width:500px){
+  .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+
