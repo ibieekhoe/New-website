@@ -27,12 +27,14 @@
     <!-- CONTACT SECTION -->
      <section class="contact">
         <h3 class="heading">Contact Us</h3>
-        <p>Ready to get started? Feel free to reach out through the contact form, and let's embark on a journey of innovation and success.</p>
+        <p class="rest">Ready to get started? Feel free to reach out through the contact form, and let's 
+        <br> embark on a journey of innovation and success.
+        </p>
      <div class="contact-information">
-        <h3 class="info">Contact Information</h3>
+        <section class="free">
+            <h3 class="info">Contact Information</h3>
         <p class="text-type">Fill up the form and our Team will get back to you within 24 hours.</p>
 
-        <div class="tele">
             <div class="phone">
             <a href="#"><i class="fa fa-phone"></i></a>
             <a href="#">+23412345678</a>
@@ -43,36 +45,45 @@
         </div>
         <div class="ticket">
             <a href="#"><i class="fa fa-ticket"></i></a>
-            <a href="#">Open Support Ticket</a>
+            <a href="#" id="ticket">Open Support Ticket</a>
         </div>
-        </div>
+        </section>
         <div class="filling">
-            <div class="name1">
+            <div class="flexa">
+                <div class="name1">
             <p class="first-name"> First Name</p>
-            <input  type="text" placeholder="e.g Alli" id="name1">
+            <input  type="text" placeholder="e.g Alli" id="name1" required>
         </div>
         <div class="name2">
             <p class="last-name">Last Name </p>
-            <input type="text" placeholder="e.g kane" id="name2" >
+            <input type="text" placeholder="e.g kane" id="name2" required>
         </div>
+            </div>
         <div class="email">
             <p class="email1">Email</p>
-            <input type="email" name="" id="" placeholder=" e.g jones@mail.com">
+            <input type="email" name="" id="email2" placeholder=" e.g jones@mail.com" required>
         </div>
         <div class="interest">
             <p class="interest-on">What do you have interest on?</p>
-            <input type="checkbox" name="design" id="design">
+            <input type="checkbox" name="design" id="design" required>
             <label for="design">Design</label>
-            <input type="checkbox" name="development" id="development">
+            <input type="checkbox" name="development" id="development" required>
             <label for="development">Development</label>
-            <input type="checkbox" name="support" id="support">
+            <input type="checkbox" name="support" id="support" required>
             <label for="support ">Support</label>
-            <input type="checkbox" name="others" id="others">
+            <input type="checkbox" name="others" id="others" required>
             <label for="others">Others</label>
-            <span class="error-message" id="username-error">checkbox can only select one</span>
+             </div>
+            
+
+            <div class="message">
+                <p class="message1">Your Message</p>
+                <input  type="text" id="message2" required>
+            </div>
+            <button>SEND MESSAGE </button required>
 
             
-        </div>
+       
         </div>
 
 

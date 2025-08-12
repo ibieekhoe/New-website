@@ -1,0 +1,134 @@
+/* CONTACT STYLES */
+.heading{
+    color: #263238;
+    font-size: 40px ;
+    font-family: 'Roboto' sans-serif;
+    margin: 0px 0px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rest{
+    color: #9E9E9E;
+    font-size: 20px;
+    font-family: 'Roboto' sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    border: 2px solid black;
+    width: 400px;
+    height: 4o0px;
+    padding: 30px;
+    border-radius: 10px;
+    background: black;
+    color: #fff;
+}
+.info{
+    font-size: 24px;
+    margin: 0px 0px 8px;
+    font-family: 'Roboto' sans-serif;
+    display: flex;
+
+}
+.text-type{
+    font-size: 17px;
+    font-family: 'Roboto' sans-serif;
+    margin: 0px 0px 32px ;
+    color: #9E9E9E;
+}
+a{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto' sans-serif;
+    margin: 0px 0px 15px;
+    text-decoration: none;
+    
+    justify-content: space-between;
+}
+.mail{
+    margin: 10px 0px;
+    display: flex;
+    gap: 20px;
+}
+.ticket{
+    margin: 0px 0px 40px;
+    display: flex;
+    gap: 20px;
+}
+.phone{
+    display: flex;
+    gap: 20px;
+}
+.contact-information{
+    padding: 64px 32px;
+    box-shadow: 5px 5px 5px 5px rgb(214, 209, 209);
+    border-radius: 10px;
+    display: flex;
+    gap: 100px;
+   
+
+}
+#name1{
+    width: 260px;
+    padding: 20px 1px 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+}
+#name2{
+    width: 300px;
+    padding: 20px 1px 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+#email2{
+    width: 600px;
+    padding: 20px 1px 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+#message2{
+    width: 600px;
+    padding: 20px 1px 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+#email2:active{
+    color: #263238;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.interest{
+    margin: 0px 0px 0px 56px - 12px ;
+}
+button{
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 475px;
+    margin-top: 30px;
+    border: none;
+    padding:  0 10px;
+    font-family: 'Roboto' sans-serif;
+}
+.flexa{
+    display: flex;
+    gap: 40px;
+}
+#design,#development,#support,#others{
+    cursor: pointer;
+}
+
+
+
